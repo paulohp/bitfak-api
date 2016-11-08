@@ -5,7 +5,7 @@
   "license": "MIT",
   "dependencies": {
     "bitgo": "^2.0.4",
-    "blockchain.info": "^2.4.2",
+    "blockchain.info": "github:paulohp/api-v1-client-node",
     "cors": "^2.8.1",
     "express": "^4.14.0",
     "fetch-node": "^0.0.1",
