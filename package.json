@@ -4,6 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
+    "bitcore-lib": "^0.13.19",
     "bitgo": "^2.0.4",
     "blockchain.info": "github:paulohp/api-v1-client-node",
     "cors": "^2.8.1",
