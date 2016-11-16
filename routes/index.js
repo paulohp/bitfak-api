@@ -34,4 +34,12 @@ routes.post('/api/v1/address/create', (req, res) => {
   });
 });
 
+routes.get('/api/v1/address/:address/transactions', (req, res) => {
+  const { address } = req.params;
+  bitgo.blockchain().getAddressTransactions({address: address}, function(err, response) {
+    if (err) { console.log(err); process.exit(-1); }
+    res.status(200).json(response);
+  });
+})
+
 module.exports = routes;
